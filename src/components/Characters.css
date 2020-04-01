@@ -1,0 +1,22 @@
+.imgCharacter {
+  width: 200px;
+  height: 200px;
+}
+.flexdiv {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.pdiv {
+  border-style: solid;
+  margin: 10px;
+}
+.loading {
+  font-size: 50px;
+  margin-top: 100px;
+}
+.imgFullCharacter {
+  width: 400px;
+  height: 400px;
+}
