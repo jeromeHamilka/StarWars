@@ -35,7 +35,7 @@ class Characters extends Component {
           <div>
             <DisplayFullCharacter character={characters[idToDisplay]} />
 
-            <div className="flexdiv">
+            <div className="card">
               {characters.map(character => (
                 <DisplayCharacter
                   handleClick={this.handleClick}

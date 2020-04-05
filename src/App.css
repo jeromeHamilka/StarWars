@@ -1,11 +1,12 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  background-image: url("./components/images/background.jpeg");
 }
 
-.App-logo {
-  height: 5vmin;
-  pointer-events: none;
-}
+.App-logo,
 .App-logo1 {
   height: 5vmin;
   pointer-events: none;
@@ -18,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./components/images/background.jpeg");
   min-height: 10vh;
   display: flex;
   align-items: center;

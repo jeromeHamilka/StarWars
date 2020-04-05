@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./images/Galactic_Republic.svg";
 import logo1 from "./images/Star_Wars_Logo.svg";
+import "./Characters.css";
 
 const Navbar = () => {
   return (

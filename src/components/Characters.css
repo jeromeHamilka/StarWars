@@ -1,14 +1,20 @@
 .imgCharacter {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
-.flexdiv {
-  width: 90%;
+.card {
+  background: black;
+  background-size: cover;
+  width: 100%;
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: baseline;
 }
 .pdiv {
+  width: min-content;
+  height: 175px;
+  color: whitesmoke;
   border-style: solid;
   margin: 10px;
 }
@@ -19,4 +25,32 @@
 .imgFullCharacter {
   width: 400px;
   height: 400px;
+}
+.bigCard {
+  color: whitesmoke;
+  border-style: solid;
+  display: flex;
+  margin: 10px;
+}
+.bigCardProperty {
+  color: whitesmoke;
+  margin-left: 1em;
+  text-align: start;
+  font-size: x-large;
+}
+.App-header {
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .imgFullCharacter {
+    width: 100%;
+    height: auto;
+  }
+  .bigCardProperty {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    text-align: start;
+    font-size: small;
+  }
 }

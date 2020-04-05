@@ -10,7 +10,7 @@ const DisplayCharacter = ({ character, handleClick }) => {
         src={character.image}
         alt={character.name}
       />
-      <p>{character.species}</p>
+      {/* <p>{character.species}</p> */}
     </div>
   );
 };
